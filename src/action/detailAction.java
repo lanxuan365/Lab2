@@ -5,7 +5,7 @@ import java.util.List;
 import database.Author;
 import database.Book;
 import service.bookService;
-public class detailAction {
+public class detailAction {//显示详细信息action
 	private String title;
 	public List <Author> auth = new ArrayList<Author>();
 	public List <Book> book = new ArrayList<Book>();

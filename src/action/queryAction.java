@@ -15,7 +15,7 @@ import database.Book;
 import service.authorService;
 import service.bookService;
 
-public class queryAction extends ActionSupport{
+public class queryAction extends ActionSupport{//查询action
 	
 	private String name;
 	public List <Author> au = new ArrayList<Author>();

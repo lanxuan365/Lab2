@@ -15,7 +15,7 @@ import database.Book;
 import service.authorService;
 import service.bookService;
 
-public class deleteAction {
+public class deleteAction {//删除action
 	private String ISBN;
 	public  String execute(){
 		if (service.bookService.deleteBook(getISBN())==1)
